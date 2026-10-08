@@ -1,0 +1,122 @@
+# ================================
+# Java / Spring Boot / Maven
+# ================================
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+replay_pid*
+
+# ================================
+# Variáveis de ambiente / Segredos
+# ================================
+.env
+.env.*
+!.env.example
+*.env
+application-local.properties
+application-local.yml
+application-secret.properties
+secrets/
+*.pem
+*.key
+*.p12
+*.jks
+
+# ================================
+# Logs
+# ================================
+*.log
+logs/
+log/
+spring.log
+
+# ================================
+# STS (Spring Tool Suite)
+# ================================
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+.recommenders
+.externalToolBuilders/
+*.launch
+
+# ================================
+# IntelliJ IDEA
+# ================================
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+.idea_modules/
+atlassian-ide-plugin.xml
+
+# ================================
+# NetBeans
+# ================================
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ================================
+# VS Code
+# ================================
+.vscode/
+
+# ================================
+# Sistema Operacional
+# ================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ================================
+# Testes / Cobertura
+# ================================
+**/allure-results/
+**/surefire-reports/
+**/failsafe-reports/
+**/jacoco.exec
+coverage/
+
+# ================================
+# H2 Database (local)
+# ================================
+*.db
+*.mv.db
+*.trace.db
+
+# ================================
+# Docker
+# ================================
+docker-compose.override.yml
